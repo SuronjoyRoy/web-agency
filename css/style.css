@@ -1,0 +1,132 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.primary-color{
+    color: #ff9c00 !important;
+}
+.heading-color{
+    color: #072753
+}
+.navbar{
+    background: #33333391 !important;
+}
+#header-section{
+    background: url(../img/Path\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:750px;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    padding: 12px !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9c00 !important;
+}
+.right-banner {
+    margin-top: 100px !important;
+}
+/* DROPDOWN NAVBAR */
+.dropdown-item {
+    font-size: 20px;
+}
+.dropdown-item:hover {
+    background: #333;
+    color: #fff;
+}
+.navbar-nav .dropdown .dropdown-menu {
+    transition: all 0.5s;
+    visibility:hidden;
+    transform-origin: top center;
+    transform: scaleY(0);
+    display: block;
+    top: 42px;
+    margin-top: 15px;
+    background: #fff;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+    transition: all 0.5s;
+    visibility:visible;
+    transform-origin: top center;
+    transform: scaleY(1);
+    display: block;
+    margin-top: 15px;
+    
+}
+.service-title h2 {
+    color: #072753;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.icon i {
+    font-size: 50px;
+    color: #ff9c00;
+    padding-bottom: 10px;
+}
+.service-item h3 {
+    font-size: 22px;
+}
+
+/* WORK SECTION CSS */
+.left-text p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+/* PROJECT SECTION CSS */
+#project-section{
+    background: url(../img/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:750px;
+}
+/* FOOTER SECTION CSS */
+#footer-section {
+    background: #011021;
+    color: #fff;
+}
+.f-menu li {
+    line-height: 15px;
+}
+.socail-link i {
+    color: #fff !important;
+    font-size: 30px;
+    margin-top: 25px;
+    padding-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+@media(max-width:992px){
+    .menu-btn {
+    display: none;
+    }
+    .dropdown-menu {
+        width: 220px;
+    }
+    .sub-menu {
+        display: inline-flex;
+    }
+};
+@media(max-width:768px){
+    .right-banner {
+        margin-bottom: 80px !important;
+    }
+}
+@media(min-width:576){
+    .com-logo {
+        text-align: center !important;
+    }
+}
